@@ -1,0 +1,8 @@
+name: AdvancedPunishGUI
+main: org.jbltd.punish.Main
+version: 0.1
+author: SparkWings
+
+commands:
+    punish:
+      aliases: [punish,p]
