@@ -285,6 +285,10 @@ public class PunishmentGUI implements Listener {
     @EventHandler
     public void handle(InventoryClickEvent e) {
 	
+	if (!(e.getClickedInventory().getName().equalsIgnoreCase(ChatColor.BLUE + "" + ChatColor.UNDERLINE + "Punish"))) {
+	    return;
+	}
+	
 	if (e.getClickedInventory().getName().equalsIgnoreCase(ChatColor.BLUE + "" + ChatColor.UNDERLINE + "Punish")) {
 
 	    e.setCancelled(true);
